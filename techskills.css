@@ -12,8 +12,7 @@
   grid-gap: 10px;
   justify-items: center;
 }
-
-.title {
+.technical-container .title {
   color: black;
   text-align: center;
   width: 326px;
@@ -24,8 +23,7 @@
   font-size: 32px;
   line-height: 38.73px;
 }
-
-.tech-intro {
+.technical-container .tech-intro {
   color: black;
   text-align: center;
   width: 332px;
@@ -36,64 +34,55 @@
   font-size: 16px;
   line-height: 25.6px;
 }
-
-.logo1 {
+.technical-container .logo1 {
   width: 67px;
   height: 112px;
   top: 99px;
   left: 35px;
   justify-items: center;
 }
-
-.logo2 {
+.technical-container .logo2 {
   width: 72px;
   height: 72px;
   left: -3px;
   justify-items: center;
 }
-
-.logo3 {
+.technical-container .logo3 {
   width: 72px;
   height: 72px;
   left: -3px;
   justify-items: center;
 }
-
-.logo4 {
+.technical-container .logo4 {
   width: 66px;
   height: 67px;
   justify-items: center;
 }
-
-.logo5 {
+.technical-container .logo5 {
   width: 67px;
   height: 67px;
   justify-items: center;
 }
-
-.logo6 {
+.technical-container .logo6 {
   width: 63px;
   height: 72px;
   left: 2px;
   justify-items: center;
 }
-
-.logo7 {
+.technical-container .logo7 {
   width: 58px;
   height: 67px;
   top: 5px;
   left: 4px;
   justify-items: center;
 }
-
-.logo8 {
+.technical-container .logo8 {
   width: 67px;
   height: 67px;
   top: 5px;
   justify-items: center;
 }
-
-.logo9 {
+.technical-container .logo9 {
   width: 67px;
   height: 77px;
   justify-items: center;

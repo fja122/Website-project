@@ -1,3 +1,42 @@
 @use"./variables.scss" as *;
 
 //for website version
+
+.nav-container {
+    background-color: $secondary-color;
+    color: $primary-color;
+    padding: 10px;
+    position: fixed;
+    display: flex ;
+    justify-content: space-between;
+    align-items: self-end;
+    top: 47px;
+    width: 483px;
+    height: 45px;
+    left: 1096px;
+    border-radius: 7px;
+    border: 1px;
+}
+
+.nav-container ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+
+.nav-container li {
+    margin-right: 20px;
+}
+.nav-container a {
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+@media screen  and (min-width: 1200px) {
+    .nav-container {
+        display: none;
+
+    }
+    
+}
