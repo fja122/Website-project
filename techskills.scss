@@ -14,6 +14,13 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
     justify-items: center;
+}
+
+.logos-container {
+      display:flex ;
+      flex-direction: wrap;
+      align-items: center;
+      justify-content: center;
 
     .title {
         color: $primary-color;
