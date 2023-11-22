@@ -1,0 +1,36 @@
+//Footer section 
+
+ .footer-container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+
+
+    .contact-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: auto;
+
+        .email {
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .contactinfo {
+            width: 30px;
+            height: 30px;
+            margin-right:10px;
+            grid-row: span;
+        }
+    }
+}

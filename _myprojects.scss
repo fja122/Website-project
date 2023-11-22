@@ -1,0 +1,49 @@
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 373px;
+    height: 1868px;
+    top: 2938px;
+    left: 28px;
+    gap: 64px;
+
+ .project {
+    width: 373px;
+    height: 580px;
+    grid-template-columns: auto;
+ }
+
+ .client-projects {
+    margin-right: 20px;
+    text-decoration: none;
+    color: $primary-color;
+
+    &:hover {
+        text-decoration: underline;
+    }
+ }
+
+ .project.info {
+   width: 373px; 
+   height: 87px;
+   top: 434.58px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28.8px;
+   color: $primary-color;
+ }
+}
+
+
+.button {
+    background-color: $secondary-color;
+    color: $primary-color;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 2px solid black;
+    
+}

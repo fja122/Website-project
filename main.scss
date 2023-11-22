@@ -1,0 +1,73 @@
+// USE VARIABLES IN THE FILE 
+@use "./variables.scss" as *;
+
+// USE THESE STYLES
+
+@use "./header";
+
+@use "./aboutme";
+
+@use "./techskills";
+
+@use "./myprojects";
+
+@use "./footer";
+
+
+/* Mobile Version */
+/* Set the borders and margin for whole page */
+
+*{
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-family: inter; 
+}
+
+.intro {   
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    width: 212px;
+    height: 28.93px;
+    top: 82px;
+    left: 51px;
+    display: flex;
+    justify-items: start;
+    border-bottom: 10px solid white;
+
+    span {
+        font-size: 20px; 
+        margin-right: 10px;
+        padding: 10px;
+        display: inline;
+     }
+    
+    }
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76.8px;
+
+    }
+    
+.picturekid {
+    display: none;
+        
+    }
+
+
+// Technical skills
+
+
+/* Set containers on html to change the flexbox and grid layout - then change it on here */
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+

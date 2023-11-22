@@ -1,6 +1,71 @@
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+.footer-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+.footer-container .contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: auto;
+}
+.footer-container .contact-section .email {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+.footer-container .contact-section .email:hover {
+  text-decoration: underline;
+}
+.footer-container .contact-section .contactinfo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  grid-row: span;
 }
 
+/* Mobile Version */
+/* Set the borders and margin for whole page */
+* {
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+.intro {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  width: 212px;
+  height: 28.93px;
+  top: 82px;
+  left: 51px;
+  display: flex;
+  justify-items: start;
+  border-bottom: 10px solid white;
+}
+.intro span {
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  display: inline;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76.8px;
+}
+
+.picturekid {
+  display: none;
+}
+
+/* Set containers on html to change the flexbox and grid layout - then change it on here *//*# sourceMappingURL=main.css.map */
